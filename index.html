@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rumah Belajar! - Masuk atau Daftar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function validateForm() {
+        var x = document.forms["myForm"]["username"].value;
+        var y = document.forms["myForm"]["password"].value;
+        if (x == "") {
+          alert("Username harus diisi!");
+          return false;
+        }
+        if (y == "") {
+          alert("Password harus diisi!");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Selamat Datang di Rumah Belajar</h1>
+    </div>
+    <div class="box">
+      <h1>Login</h1>
+      <form
+        name="myForm"
+        onsubmit="return validateForm()"
+        action="homepage/home_logged.html"
+      >
+        <input
+          type="text"
+          name="username"
+          class="input username"
+          placeholder="Email atau Username"
+        />
+        <input
+          type="text"
+          name="password"
+          class="input password"
+          placeholder="Password"
+        />
+        <input type="submit" class="input login" value="Login" />
+      </form>
+      <hr style="border: 0.1px solid #0000002a; margin: 3px" />
+      <form action="form_daftar/daftar.html">
+        <input type="submit" class="input daftar" value="Buat Akun Baru" />
+      </form>
+      <div class="guest">
+        <p>
+          Masuk sebagai
+          <a href="homepage/home.html">Guest</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

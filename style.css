@@ -1,47 +1,86 @@
-body{
-	font-family: sans-serif;
-	background-color: #30336b;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.kotak_login{
-	box-shadow: 0px 5px 10px rgba(12, 12, 12, 0.8);
-	float: center;
-	width: 15%;
-	height: 30%;
-	background: white;
-	border-radius: 15px;
-	/*meletakkan form ke tengah*/
-	margin: 200px auto;
-	padding: 30px 20px;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #30336b;
 }
- 
-.form_login{
-	/*membuat lebar form penuh*/
-	box-sizing : border-box;
-	width: 100%;
-	padding: 10px;
-	font-size: 11pt;
-	margin-bottom: 20px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
- 
-.tombol_login{
-	background: #ffbd00;
-	color: white;
-	font-size: 11pt;
-	font-weight: bold;
-	width: 100%;
-	border: none;
-	border-radius: 3px;
-	padding: 10px 20px;
+.title {
+  margin-top: -10rem;
+  padding: 1rem 1rem 2rem;
 }
-
-.tombol_baru{
-	background: #989df0;
-	color: white;
-	font-size: 11pt;
-	font-weight: bolder;
-	width: 100%;
-	border: none;
-	border-radius: 3px;
-	padding: 10px 20px;
+.title > h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1;
+  text-align: center;
+}
+.box {
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00000054;
+}
+.box > h1 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  color: #30336b;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 3px #00000084;
+  margin: 10px 0;
+  outline: none;
+  font-size: 11pt;
+}
+.login {
+  background: #ffbd00;
+  /* box-shadow: none; */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login:hover {
+  box-shadow: none;
+}
+.daftar {
+  /* box-shadow: none; */
+  cursor: pointer;
+  background: #989df0;
+  color: white;
+  font-weight: bold;
+}
+.daftar:hover {
+  box-shadow: none;
+}
+.guest {
+  padding: 10px 0 0;
+}
+.guest > p {
+  text-align: center;
+  font-size: 14px;
 }
