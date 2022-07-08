@@ -1,0 +1,144 @@
+* {
+	font-family: Arial;
+	font: 16px;
+	padding: 0px;
+	margin: 0 0 0 0;
+}
+  
+.navbar{
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+  background-color: #ffbd00;
+}
+  
+.navbar ul{
+	/*warna navbar*/
+	list-style-type: none;
+	position: relative;
+  overflow: hidden;
+	width: 100%;
+  background-color: #ffbd00;
+}
+   
+.navbar ul li{
+	float:left;
+   
+}
+.navbar  input{
+	margin: 20px;
+}
+  
+.navbar ul li:hover{
+	/*warna hover navbar*/
+	background-color: #30336b;
+}
+  
+.navbar ul li:hover a{
+	/*warna font hover*/
+	color: #ffbd00;
+}
+  
+.navbar ul li a{
+	/*warna font*/
+	display: block;
+	padding: 20px;
+	color: #30336b;
+	text-decoration: none;
+}
+
+
+.box {
+  display: inline-grid;
+  background-color: #30336b;
+    grid-template-columns: 33.5% 33.5% 33.5%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "box1 box2 box3"
+        "box4 box5 box6";
+}
+.box a :hover{
+    color: #ffbd00;
+    background-color: #30336b;
+    
+}
+.box h3 {
+    list-style: none;
+    background: #ffbd00;
+    padding: 10px;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.box img{
+  border-radius: 0.7rem;
+  width: 80%;
+  height: 180px;
+  background: gainsboro;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.box1 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box1;
+
+}
+.box2 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box2;
+    
+}
+.box3 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box3;
+    
+}
+.box4 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box4;
+    
+  }
+  .box5 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box5;
+  }
+  .box6 {
+    background: #6166c4;    
+    border-radius:  13px;
+    border-bottom: 7px solid #363dbd;
+    padding: 20px;
+    color: #edf2f4;
+    margin: 20px;
+    grid-area: box6;
+  }

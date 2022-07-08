@@ -1,0 +1,49 @@
+* {
+	font-family: Arial;
+	font: 16px;
+	padding: 0px;
+	margin: 0 0 0 0;
+}
+  
+.navbar{
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+  background-color: #ffbd00;
+}
+  
+.navbar ul{
+	/*warna navbar*/
+	list-style-type: none;
+	position: relative;
+  overflow: hidden;
+	width: 100%;
+  background-color: #ffbd00;
+}
+   
+.navbar ul li{
+	float:left;
+   
+}
+.navbar  input{
+	margin: 20px;
+}
+  
+.navbar ul li:hover{
+	/*warna hover navbar*/
+	background-color: #30336b;
+}
+  
+.navbar ul li:hover a{
+	/*warna font hover*/
+	color: #ffbd00;
+}
+  
+.navbar ul li a{
+	/*warna font*/
+	display: block;
+	padding: 20px;
+	color: #30336b;
+	text-decoration: none;
+}
