@@ -1,0 +1,138 @@
+* {
+  font-family: Arial;
+  font: 16px;
+  padding: 0px;
+  margin: 0 0 0 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffbd00;
+}
+
+.navbar ul {
+  /*warna navbar*/
+  list-style-type: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffbd00;
+}
+
+.navbar ul li {
+  float: left;
+}
+.navbar input {
+  margin: 20px;
+}
+
+.navbar ul li:hover {
+  /*warna hover navbar*/
+  background-color: #30336b;
+}
+
+.navbar ul li:hover a {
+  /*warna font hover*/
+  color: #ffbd00;
+}
+
+.navbar ul li a {
+  /*warna font*/
+  display: block;
+  padding: 20px;
+  color: #30336b;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+.about-wrap {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+}
+.left {
+  /* width: 50%; */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left > img {
+  max-width: 500px;
+}
+.right {
+  /* width: 50%; */
+  padding: 1rem;
+  max-width: 500px;
+}
+.right > h1 {
+  font-size: 40px;
+  padding: 0 0 1rem;
+}
+.right > p {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.kelompok {
+  padding: 1rem;
+}
+.kelompok > h1 {
+  text-align: center;
+}
+.card-wrap {
+  padding: 5rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3rem;
+  justify-content: center;
+}
+.card {
+  width: 100%;
+  max-width: 270px;
+  padding: 4rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0000005e;
+}
+.card > img {
+  width: 80px;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  background: #62b76b;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 -5px 10px #00000055;
+}
+.card > h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+.card > h1:nth-of-type(2) {
+  font-size: 18px;
+}

@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: #30336b;
+}
+
+.kotak_login {
+  box-shadow: 0px 5px 10px rgba(12, 12, 12, 0.8);
+  float: center;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  border-radius: 15px;
+  margin: 200px auto;
+  padding: 5px 20px;
+}
+
+.form_login {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+}
+
+.tombol_daftar {
+  background: #ffbd00;
+  color: white;
+  font-size: 11pt;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
